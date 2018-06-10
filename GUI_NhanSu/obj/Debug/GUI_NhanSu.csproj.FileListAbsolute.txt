@@ -1,0 +1,68 @@
+C:\Users\buing\OneDrive\Documents\Visual Studio 2013\Projects\ThucTapNhom_Bai1\GUI_NhanSu\obj\Debug\GUI_NhanSu.csprojResolveAssemblyReference.cache
+C:\Users\buing\OneDrive\Documents\Visual Studio 2013\Projects\ThucTapNhom_Bai1\GUI_NhanSu\obj\Debug\TTN_1.GUI.frmDeAn.resources
+C:\Users\buing\OneDrive\Documents\Visual Studio 2013\Projects\ThucTapNhom_Bai1\GUI_NhanSu\obj\Debug\TTN_1.GUI.frmMain.resources
+C:\Users\buing\OneDrive\Documents\Visual Studio 2013\Projects\ThucTapNhom_Bai1\GUI_NhanSu\obj\Debug\TTN_1.GUI.frmPhongBan.resources
+C:\Users\buing\OneDrive\Documents\Visual Studio 2013\Projects\ThucTapNhom_Bai1\GUI_NhanSu\obj\Debug\GUI_NhanSu.Properties.Resources.resources
+C:\Users\buing\OneDrive\Documents\Visual Studio 2013\Projects\ThucTapNhom_Bai1\GUI_NhanSu\obj\Debug\GUI_NhanSu.csproj.GenerateResource.Cache
+C:\Users\buing\OneDrive\Documents\Visual Studio 2013\Projects\ThucTapNhom_Bai1\GUI_NhanSu\bin\Debug\GUI_NhanSu.exe.config
+C:\Users\buing\OneDrive\Documents\Visual Studio 2013\Projects\ThucTapNhom_Bai1\GUI_NhanSu\bin\Debug\GUI_NhanSu.exe
+C:\Users\buing\OneDrive\Documents\Visual Studio 2013\Projects\ThucTapNhom_Bai1\GUI_NhanSu\bin\Debug\GUI_NhanSu.pdb
+C:\Users\buing\OneDrive\Documents\Visual Studio 2013\Projects\ThucTapNhom_Bai1\GUI_NhanSu\bin\Debug\BUS.dll
+C:\Users\buing\OneDrive\Documents\Visual Studio 2013\Projects\ThucTapNhom_Bai1\GUI_NhanSu\bin\Debug\DAO.dll
+C:\Users\buing\OneDrive\Documents\Visual Studio 2013\Projects\ThucTapNhom_Bai1\GUI_NhanSu\bin\Debug\DAL.dll
+C:\Users\buing\OneDrive\Documents\Visual Studio 2013\Projects\ThucTapNhom_Bai1\GUI_NhanSu\bin\Debug\BUS.pdb
+C:\Users\buing\OneDrive\Documents\Visual Studio 2013\Projects\ThucTapNhom_Bai1\GUI_NhanSu\bin\Debug\DAO.pdb
+C:\Users\buing\OneDrive\Documents\Visual Studio 2013\Projects\ThucTapNhom_Bai1\GUI_NhanSu\bin\Debug\DAL.pdb
+C:\Users\buing\OneDrive\Documents\Visual Studio 2013\Projects\ThucTapNhom_Bai1\GUI_NhanSu\obj\Debug\GUI_NhanSu.exe
+C:\Users\buing\OneDrive\Documents\Visual Studio 2013\Projects\ThucTapNhom_Bai1\GUI_NhanSu\obj\Debug\GUI_NhanSu.pdb
+C:\Users\buing\OneDrive\Documents\Visual Studio 2013\Projects\ThucTapNhom_Bai1\GUI_NhanSu\obj\Debug\GUI_NhanSu.frmLogin.resources
+C:\Users\buing\OneDrive\Documents\Visual Studio 2013\Projects\ThucTapNhom_Bai1\GUI_NhanSu\obj\Debug\GUI_NhanSu.frmNV_DA.resources
+C:\Users\buing\OneDrive\Documents\Visual Studio 2013\Projects\ThucTapNhom_Bai1\GUI_NhanSu\obj\Debug\TTN_1.GUI.frmNhanVien.resources
+D:\TTNhom\GUI_NhanSu\obj\Debug\GUI_NhanSu.csprojResolveAssemblyReference.cache
+D:\TTNhom\GUI_NhanSu\obj\Debug\GUI_NhanSu.frmLogin.resources
+D:\TTNhom\GUI_NhanSu\obj\Debug\TTN_1.GUI.frmMain.resources
+D:\TTNhom\GUI_NhanSu\obj\Debug\TTN_1.GUI.frmNhanVien.resources
+D:\TTNhom\GUI_NhanSu\obj\Debug\GUI_NhanSu.Properties.Resources.resources
+D:\TTNhom\GUI_NhanSu\obj\Debug\GUI_NhanSu.csproj.GenerateResource.cache
+D:\TTNhom\GUI_NhanSu\obj\Debug\GUI_NhanSu.csproj.CoreCompileInputs.cache
+D:\TTNhom\GUI_NhanSu\obj\Debug\GUI_NhanSu.exe
+D:\TTNhom\GUI_NhanSu\obj\Debug\GUI_NhanSu.pdb
+D:\TTNhom\GUI_NhanSu\bin\Debug\GUI_NhanSu.exe.config
+D:\TTNhom\GUI_NhanSu\bin\Debug\GUI_NhanSu.exe
+D:\TTNhom\GUI_NhanSu\bin\Debug\GUI_NhanSu.pdb
+D:\TTNhom\GUI_NhanSu\bin\Debug\BUS.dll
+D:\TTNhom\GUI_NhanSu\bin\Debug\DAL.dll
+D:\TTNhom\GUI_NhanSu\bin\Debug\DAO.dll
+D:\TTNhom\GUI_NhanSu\bin\Debug\BUS.pdb
+D:\TTNhom\GUI_NhanSu\bin\Debug\DAL.pdb
+D:\TTNhom\GUI_NhanSu\bin\Debug\DAO.pdb
+D:\TTNhom\GUI_NhanSu\obj\Debug\GUI_NhanSu.csproj.CopyComplete
+D:\TTNhom\GUI_NhanSu\obj\Debug\GUI_NhanSu.Sach.resources
+D:\TTNhom\GUI_NhanSu\obj\Debug\GUI_NhanSu.PhieuTra.resources
+D:\TTNhom\GUI_NhanSu\obj\Debug\GUI_NhanSu.frmPhieuMuon.resources
+D:\TTNhom\GUI_NhanSu\obj\Debug\GUI_NhanSu.cboTensach.resources
+D:\TTNhom\GUI_NhanSu\obj\Debug\GUI_NhanSu.frmSinhVien.resources
+E:\QuanLyThuVien\QuanLyThuVien\GUI_NhanSu\bin\Debug\GUI_NhanSu.exe.config
+E:\QuanLyThuVien\QuanLyThuVien\GUI_NhanSu\bin\Debug\GUI_NhanSu.exe
+E:\QuanLyThuVien\QuanLyThuVien\GUI_NhanSu\bin\Debug\GUI_NhanSu.pdb
+E:\QuanLyThuVien\QuanLyThuVien\GUI_NhanSu\bin\Debug\BUS.dll
+E:\QuanLyThuVien\QuanLyThuVien\GUI_NhanSu\bin\Debug\DAL.dll
+E:\QuanLyThuVien\QuanLyThuVien\GUI_NhanSu\bin\Debug\DAO.dll
+E:\QuanLyThuVien\QuanLyThuVien\GUI_NhanSu\bin\Debug\BUS.pdb
+E:\QuanLyThuVien\QuanLyThuVien\GUI_NhanSu\bin\Debug\DAL.pdb
+E:\QuanLyThuVien\QuanLyThuVien\GUI_NhanSu\bin\Debug\DAO.pdb
+E:\QuanLyThuVien\QuanLyThuVien\GUI_NhanSu\obj\Debug\GUI_NhanSu.csprojResolveAssemblyReference.cache
+E:\QuanLyThuVien\QuanLyThuVien\GUI_NhanSu\obj\Debug\GUI_NhanSu.cboTensach.resources
+E:\QuanLyThuVien\QuanLyThuVien\GUI_NhanSu\obj\Debug\GUI_NhanSu.frmLogin.resources
+E:\QuanLyThuVien\QuanLyThuVien\GUI_NhanSu\obj\Debug\TTN_1.GUI.frmMain.resources
+E:\QuanLyThuVien\QuanLyThuVien\GUI_NhanSu\obj\Debug\GUI_NhanSu.frmPhieuMuon.resources
+E:\QuanLyThuVien\QuanLyThuVien\GUI_NhanSu\obj\Debug\GUI_NhanSu.frmSinhVien.resources
+E:\QuanLyThuVien\QuanLyThuVien\GUI_NhanSu\obj\Debug\TTN_1.GUI.frmNhanVien.resources
+E:\QuanLyThuVien\QuanLyThuVien\GUI_NhanSu\obj\Debug\GUI_NhanSu.PhieuTra.resources
+E:\QuanLyThuVien\QuanLyThuVien\GUI_NhanSu\obj\Debug\GUI_NhanSu.Properties.Resources.resources
+E:\QuanLyThuVien\QuanLyThuVien\GUI_NhanSu\obj\Debug\GUI_NhanSu.Sach.resources
+E:\QuanLyThuVien\QuanLyThuVien\GUI_NhanSu\obj\Debug\GUI_NhanSu.csproj.GenerateResource.cache
+E:\QuanLyThuVien\QuanLyThuVien\GUI_NhanSu\obj\Debug\GUI_NhanSu.csproj.CoreCompileInputs.cache
+E:\QuanLyThuVien\QuanLyThuVien\GUI_NhanSu\obj\Debug\GUI_NhanSu.csproj.CopyComplete
+E:\QuanLyThuVien\QuanLyThuVien\GUI_NhanSu\obj\Debug\GUI_NhanSu.exe
+E:\QuanLyThuVien\QuanLyThuVien\GUI_NhanSu\obj\Debug\GUI_NhanSu.pdb

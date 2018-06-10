@@ -1,0 +1,11 @@
+C:\Users\buing\OneDrive\Documents\Visual Studio 2013\Projects\ThucTapNhom_Bai1\DAO\bin\Debug\DAO.dll
+C:\Users\buing\OneDrive\Documents\Visual Studio 2013\Projects\ThucTapNhom_Bai1\DAO\bin\Debug\DAO.pdb
+C:\Users\buing\OneDrive\Documents\Visual Studio 2013\Projects\ThucTapNhom_Bai1\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
+C:\Users\buing\OneDrive\Documents\Visual Studio 2013\Projects\ThucTapNhom_Bai1\DAO\obj\Debug\DAO.dll
+C:\Users\buing\OneDrive\Documents\Visual Studio 2013\Projects\ThucTapNhom_Bai1\DAO\obj\Debug\DAO.pdb
+D:\TTNhom\DAO\bin\Debug\DAO.dll
+D:\TTNhom\DAO\bin\Debug\DAO.pdb
+D:\TTNhom\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
+D:\TTNhom\DAO\obj\Debug\DAO.csproj.CoreCompileInputs.cache
+D:\TTNhom\DAO\obj\Debug\DAO.dll
+D:\TTNhom\DAO\obj\Debug\DAO.pdb

@@ -1,0 +1,20 @@
+C:\Users\buing\OneDrive\Documents\Visual Studio 2013\Projects\ThucTapNhom_Bai1\BUS\bin\Debug\BUS.dll
+C:\Users\buing\OneDrive\Documents\Visual Studio 2013\Projects\ThucTapNhom_Bai1\BUS\bin\Debug\BUS.pdb
+C:\Users\buing\OneDrive\Documents\Visual Studio 2013\Projects\ThucTapNhom_Bai1\BUS\bin\Debug\DAL.dll
+C:\Users\buing\OneDrive\Documents\Visual Studio 2013\Projects\ThucTapNhom_Bai1\BUS\bin\Debug\DAO.dll
+C:\Users\buing\OneDrive\Documents\Visual Studio 2013\Projects\ThucTapNhom_Bai1\BUS\bin\Debug\DAL.pdb
+C:\Users\buing\OneDrive\Documents\Visual Studio 2013\Projects\ThucTapNhom_Bai1\BUS\bin\Debug\DAO.pdb
+C:\Users\buing\OneDrive\Documents\Visual Studio 2013\Projects\ThucTapNhom_Bai1\BUS\obj\Debug\BUS.csprojResolveAssemblyReference.cache
+C:\Users\buing\OneDrive\Documents\Visual Studio 2013\Projects\ThucTapNhom_Bai1\BUS\obj\Debug\BUS.dll
+C:\Users\buing\OneDrive\Documents\Visual Studio 2013\Projects\ThucTapNhom_Bai1\BUS\obj\Debug\BUS.pdb
+D:\TTNhom\BUS\bin\Debug\BUS.dll
+D:\TTNhom\BUS\bin\Debug\BUS.pdb
+D:\TTNhom\BUS\bin\Debug\DAL.dll
+D:\TTNhom\BUS\bin\Debug\DAO.dll
+D:\TTNhom\BUS\bin\Debug\DAL.pdb
+D:\TTNhom\BUS\bin\Debug\DAO.pdb
+D:\TTNhom\BUS\obj\Debug\BUS.csprojResolveAssemblyReference.cache
+D:\TTNhom\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+D:\TTNhom\BUS\obj\Debug\BUS.csproj.CopyComplete
+D:\TTNhom\BUS\obj\Debug\BUS.dll
+D:\TTNhom\BUS\obj\Debug\BUS.pdb

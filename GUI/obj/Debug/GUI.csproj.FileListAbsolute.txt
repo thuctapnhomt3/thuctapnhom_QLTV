@@ -1,0 +1,3 @@
+C:\Users\buing\OneDrive\Documents\Visual Studio 2013\Projects\ThucTapNhom_Bai1\GUI\obj\Debug\GUI.csprojResolveAssemblyReference.cache
+C:\Users\buing\OneDrive\Documents\Visual Studio 2013\Projects\ThucTapNhom_Bai1\GUI\obj\Debug\TTN_1.frmLogin.resources
+C:\Users\buing\OneDrive\Documents\Visual Studio 2013\Projects\ThucTapNhom_Bai1\GUI\obj\Debug\GUI.csproj.GenerateResource.Cache

@@ -1,0 +1,16 @@
+C:\Users\buing\OneDrive\Documents\Visual Studio 2013\Projects\ThucTapNhom_Bai1\DAL\bin\Debug\DAL.dll
+C:\Users\buing\OneDrive\Documents\Visual Studio 2013\Projects\ThucTapNhom_Bai1\DAL\bin\Debug\DAL.pdb
+C:\Users\buing\OneDrive\Documents\Visual Studio 2013\Projects\ThucTapNhom_Bai1\DAL\bin\Debug\DAO.dll
+C:\Users\buing\OneDrive\Documents\Visual Studio 2013\Projects\ThucTapNhom_Bai1\DAL\bin\Debug\DAO.pdb
+C:\Users\buing\OneDrive\Documents\Visual Studio 2013\Projects\ThucTapNhom_Bai1\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\buing\OneDrive\Documents\Visual Studio 2013\Projects\ThucTapNhom_Bai1\DAL\obj\Debug\DAL.dll
+C:\Users\buing\OneDrive\Documents\Visual Studio 2013\Projects\ThucTapNhom_Bai1\DAL\obj\Debug\DAL.pdb
+D:\TTNhom\DAL\bin\Debug\DAL.dll
+D:\TTNhom\DAL\bin\Debug\DAL.pdb
+D:\TTNhom\DAL\bin\Debug\DAO.dll
+D:\TTNhom\DAL\bin\Debug\DAO.pdb
+D:\TTNhom\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+D:\TTNhom\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\TTNhom\DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\TTNhom\DAL\obj\Debug\DAL.dll
+D:\TTNhom\DAL\obj\Debug\DAL.pdb
