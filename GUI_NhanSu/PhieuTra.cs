@@ -28,9 +28,9 @@ namespace GUI_NhanSu
             txtMaPhieu.Text = "";
             txtGhichu.Text = "";
             txtGhichu.Text = "";
-            
+
             dtNgayTra.Value = new DateTime(1997, 10, 01);
-            
+
         }
         void ShowData()
         {
@@ -41,108 +41,108 @@ namespace GUI_NhanSu
         }
         private void btThem_Click(object sender, EventArgs e)
         {
-            //DialogResult dr = MessageBox.Show("Bạn có muốn thêm không ?", "Thông báo", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
-            //if (dr == DialogResult.OK)
-            //{
-            //    if (txtMaPhieu.Text != "")
-            //    {
-                    
-            //        PhieuTraDao nv = new PhieuTraDao(txtMaPhieu.Text.ToString().Trim(),cboSinhVien.SelectedValue.ToString(),dtNgayTra.Value,txtGhichu.Text);
-            //        //(txtMaNV.Text.ToString().Trim(), txtTen.Text.ToString().Trim(), txtMaPhong.Text.ToString().Trim(),DateTime.Parse(dtNgaySinh.Text.ToString()),gioitinh,int.Parse(txtLuong.Text.ToString()), txtDiaChi.Text.ToString().Trim());
-            //        if (bus_nv.Them(nv) == true)
-            //        {
-            //            FormatData();
-            //            ShowData();
-            //            MessageBox.Show("Thêm thành công");
-            //        }
-            //        else
-            //        {
-            //            Exception ex = bus_nv.GetEx();
-            //            MessageBox.Show(ex.Message);
-            //            MessageBox.Show("Có lỗi xảy ra");
-            //        }
-            //    }
-            //    else
-            //        MessageBox.Show("Bạn cần nhập đủ thông tin ");
-            //}
+            DialogResult dr = MessageBox.Show("Bạn có muốn thêm không ?", "Thông báo", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
+            if (dr == DialogResult.OK)
+            {
+                if (txtMaPhieu.Text != "")
+                {
+
+                    PhieuTraDao nv = new PhieuTraDao(txtMaPhieu.Text.ToString().Trim(), cboSinhVien.SelectedValue.ToString(), dtNgayTra.Value, txtGhichu.Text);
+                    //(txtMaNV.Text.ToString().Trim(), txtTen.Text.ToString().Trim(), txtMaPhong.Text.ToString().Trim(),DateTime.Parse(dtNgaySinh.Text.ToString()),gioitinh,int.Parse(txtLuong.Text.ToString()), txtDiaChi.Text.ToString().Trim());
+                    if (bus_nv.Them(nv) == true)
+                    {
+                        FormatData();
+                        ShowData();
+                        MessageBox.Show("Thêm thành công");
+                    }
+                    else
+                    {
+                        Exception ex = bus_nv.GetEx();
+                        MessageBox.Show(ex.Message);
+                        MessageBox.Show("Có lỗi xảy ra");
+                    }
+                }
+                else
+                    MessageBox.Show("Bạn cần nhập đủ thông tin ");
+            }
         }
 
         private void btSua_Click(object sender, EventArgs e)
         {
 
-            //DialogResult dr = MessageBox.Show("Bạn có muốn thêm không ?", "Thông báo", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
-            //if (dr == DialogResult.OK)
-            //{
-            //    if (txtMaPhieu.Text != "")
-            //    {
+            DialogResult dr = MessageBox.Show("Bạn có muốn thêm không ?", "Thông báo", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
+            if (dr == DialogResult.OK)
+            {
+                if (txtMaPhieu.Text != "")
+                {
 
-            //        PhieuTraDao nv = new PhieuTraDao(txtMaPhieu.Text.ToString().Trim(), cboSinhVien.SelectedValue.ToString(), DateTime.Parse(dtNgayTra.Text.ToString()), txtGhichu.Text);
-            //        //(txtMaNV.Text.ToString().Trim(), txtTen.Text.ToString().Trim(), txtMaPhong.Text.ToString().Trim(),DateTime.Parse(dtNgaySinh.Text.ToString()),gioitinh,int.Parse(txtLuong.Text.ToString()), txtDiaChi.Text.ToString().Trim());
-            //        if (bus_nv.Sua(nv) == true)
-            //        {
-            //            FormatData();
-            //            ShowData();
-            //            MessageBox.Show("Sửa thành công");
-            //        }
-            //        else
-            //        {
-            //            Exception ex = bus_nv.GetEx();
-            //            MessageBox.Show(ex.Message);
-            //            MessageBox.Show("Có lỗi xảy ra");
-            //        }
-            //    }
-            //    else
-            //        MessageBox.Show("Bạn cần nhập đủ thông tin ");
-            //}
+                    PhieuTraDao nv = new PhieuTraDao(txtMaPhieu.Text.ToString().Trim(), cboSinhVien.SelectedValue.ToString(), DateTime.Parse(dtNgayTra.Text.ToString()), txtGhichu.Text);
+                    //(txtMaNV.Text.ToString().Trim(), txtTen.Text.ToString().Trim(), txtMaPhong.Text.ToString().Trim(),DateTime.Parse(dtNgaySinh.Text.ToString()),gioitinh,int.Parse(txtLuong.Text.ToString()), txtDiaChi.Text.ToString().Trim());
+                    if (bus_nv.Sua(nv) == true)
+                    {
+                        FormatData();
+                        ShowData();
+                        MessageBox.Show("Sửa thành công");
+                    }
+                    else
+                    {
+                        Exception ex = bus_nv.GetEx();
+                        MessageBox.Show(ex.Message);
+                        MessageBox.Show("Có lỗi xảy ra");
+                    }
+                }
+                else
+                    MessageBox.Show("Bạn cần nhập đủ thông tin ");
+            }
         }
 
         private void btXoa_Click(object sender, EventArgs e)
         {
-            //if (txtMaPhieu.Text.Length != 0)
-            //{
-               
-            //    if (MessageBox.Show("Phòng ban liên quan đến các bảng khác, bạn có chắc muốn xóa dữ liệu liên quan đến phòng ban ??", "Thông báo", MessageBoxButtons.YesNo) == DialogResult.Yes)
-            //    {
-            //        if (bus_nv.Xoa(txtMaPhieu.Text.Trim()))
-            //        {
-            //            FormatData();
-            //            ShowData();
-            //            MessageBox.Show("Xóa thành công");
-            //        }
-            //        else
-            //        {
-            //            Exception ex = bus_nv.GetEx();
-            //            MessageBox.Show(ex.Message);
-            //            MessageBox.Show("Lỗi");
-            //        }
-            //    }
-            //}
-            //else
-            //{
-            //    MessageBox.Show("Vui lòng chọn");
-            //}
+            if (txtMaPhieu.Text.Length != 0)
+            {
+
+                if (MessageBox.Show("Phòng ban liên quan đến các bảng khác, bạn có chắc muốn xóa dữ liệu liên quan đến phòng ban ??", "Thông báo", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                {
+                    if (bus_nv.Xoa(txtMaPhieu.Text.Trim()))
+                    {
+                        FormatData();
+                        ShowData();
+                        MessageBox.Show("Xóa thành công");
+                    }
+                    else
+                    {
+                        Exception ex = bus_nv.GetEx();
+                        MessageBox.Show(ex.Message);
+                        MessageBox.Show("Lỗi");
+                    }
+                }
+            }
+            else
+            {
+                MessageBox.Show("Vui lòng chọn");
+            }
         }
 
         private void btTimKiem_Click(object sender, EventArgs e)
         {
-            //if (txtTimKiem.Text != "")
-            //{
-            //    btHienThi.Enabled = true;
-            //    if (bus_nv.GetDataTimKiem(txtTimKiem.Text.Trim()) != null)
-            //    {
-            //        FormatData();
-            //        dtgPhieutra.DataSource = bus_nv.GetDataTimKiem(txtTimKiem.Text.Trim());
-            //        MessageBox.Show("Tìm thành công");
-            //    }
-            //    else
-            //    {
-            //        Exception ex = bus_nv.GetEx();
-            //        MessageBox.Show(ex.Message);
-            //        MessageBox.Show("Lỗi rồi bạn ơi !");
-            //    }
-            //}
-            //else
-            //    MessageBox.Show("Bạn cần nhập thông tin để tìm kiếm !");
+            if (txtTimKiem.Text != "")
+            {
+                btHienThi.Enabled = true;
+                if (bus_nv.GetDataTimKiem(txtTimKiem.Text.Trim()) != null)
+                {
+                    FormatData();
+                    dtgPhieutra.DataSource = bus_nv.GetDataTimKiem(txtTimKiem.Text.Trim());
+                    MessageBox.Show("Tìm thành công");
+                }
+                else
+                {
+                    Exception ex = bus_nv.GetEx();
+                    MessageBox.Show(ex.Message);
+                    MessageBox.Show("Lỗi rồi bạn ơi !");
+                }
+            }
+            else
+                MessageBox.Show("Bạn cần nhập thông tin để tìm kiếm !");
         }
 
         private void btHienThi_Click(object sender, EventArgs e)
@@ -177,7 +177,7 @@ namespace GUI_NhanSu
 
                 cboSinhVien.Text = row.Cells["TENSV"].Value.ToString().Trim();
                 dtNgayTra.Text = row.Cells["NGAYTRA"].Value.ToString().Trim();
-               
+
             }
             catch (Exception ex)
             {
@@ -200,9 +200,9 @@ namespace GUI_NhanSu
             txtGhichu.Enabled = e;
             txtMaPhieu.Enabled = e;
             cboSinhVien.Enabled = e;
-            
-           
-           
+
+
+
 
         }
         private void clearData()

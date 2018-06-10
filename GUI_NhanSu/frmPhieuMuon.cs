@@ -53,7 +53,7 @@ namespace GUI_NhanSu
             comboBox2.Enabled = e;
             comboBox1.Enabled = e;
             dateTimePicker1.Enabled = e;
-            dateTimePicker2.Enabled= e;
+            dateTimePicker2.Enabled = e;
             txtGhichu.Enabled = e;
         }
         private void clearData()
@@ -93,80 +93,80 @@ namespace GUI_NhanSu
 
         private void btXoa_Click(object sender, EventArgs e)
         {
-            //if (MessageBox.Show("Bạn có chắc chắn muốn xóa không?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
-            //{
-            //    try
-            //    {
-            //        bis.DeleteData(txtMaPhieu.Text);
-            //        MessageBox.Show("Xóa thành công!");
-            //        clearData();
-            //        DisEnl(false);
-            //        HienThi();
-            //    }
-            //    catch (Exception ex)
-            //    {
-            //        MessageBox.Show("Lỗi" + ex.Message);
-            //    }
-            //}
+            if (MessageBox.Show("Bạn có chắc chắn muốn xóa không?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                try
+                {
+                    bis.DeleteData(txtMaPhieu.Text);
+                    MessageBox.Show("Xóa thành công!");
+                    clearData();
+                    DisEnl(false);
+                    HienThi();
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Lỗi" + ex.Message);
+                }
+            }
         }
 
         private void btnLuu_Click(object sender, EventArgs e)
         {
-            //if (txtMaPhieu.Text == "")
-            //{
-            //    MessageBox.Show("Bạn chưa nhập mã phiếu yêu cầu! ", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            //}
-            //if (comboBox1.Text == "")
-            //{
-            //    MessageBox.Show("Bạn chưa nhập khách hàng! ", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            //}
-           
-            ////if (dtNgayNhap.Value != DateTime.Now)
-            ////{
-            ////    MessageBox.Show("Bạn nhập sai ngày! ", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            ////}
-            //PhieuMuonDao obj = new PhieuMuonDao();
+            if (txtMaPhieu.Text == "")
+            {
+                MessageBox.Show("Bạn chưa nhập mã phiếu yêu cầu! ", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            if (comboBox1.Text == "")
+            {
+                MessageBox.Show("Bạn chưa nhập khách hàng! ", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
 
-            //obj.MaPM = txtMaPhieu.Text;
-            //obj.MaNV = comboBox1.SelectedValue.ToString();
-            //obj.MaSV = comboBox2.SelectedValue.ToString();
-            //obj.NgayMuon = dateTimePicker1.Value;
-            //obj.NgayTra = dateTimePicker2.Value;
-            //obj.Ghichu = txtGhichu.Text;
-            //if (txtMaPhieu.Text != "" && fluu == 0)
+            //if (dtNgayNhap.Value != DateTime.Now)
             //{
-            //    try
-            //    {
+            //    MessageBox.Show("Bạn nhập sai ngày! ", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            //}
+            PhieuMuonDao obj = new PhieuMuonDao();
 
-            //        bis.InsertData(obj);
-            //        MessageBox.Show("Thêm thành công!", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            //        HienThi();
-            //        cboNguoiViet_Load(sender, e);
-            //        clearData();
-            //        DisEnl(false);
-            //        fluu = 1;
-            //    }
-            //    catch(Exception ex)
-            //    {
-            //        MessageBox.Show("Lỗi" + ex.Message);
-            //    }
-            //}
-            //else if (txtMaPhieu.Text !="" && fluu != 0)
-            //{
-            //    try
-            //    {
-            //        bis.UpdateData(obj);
-            //        MessageBox.Show("Sửa Thành Công ! ", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            //        HienThi();
-            //        cboNguoiViet_Load(sender, e);
-            //        clearData();
-            //        DisEnl(false);
-            //    }
-            //    catch (Exception ex)
-            //    {
-            //        MessageBox.Show("Lỗi" + ex.Message);
-            //    }
-            //}
+            obj.MaPM = txtMaPhieu.Text;
+            obj.MaNV = comboBox1.SelectedValue.ToString();
+            obj.MaSV = comboBox2.SelectedValue.ToString();
+            obj.NgayMuon = dateTimePicker1.Value;
+            obj.NgayTra = dateTimePicker2.Value;
+            obj.Ghichu = txtGhichu.Text;
+            if (txtMaPhieu.Text != "" && fluu == 0)
+            {
+                try
+                {
+
+                    bis.InsertData(obj);
+                    MessageBox.Show("Thêm thành công!", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    HienThi();
+                    cboNguoiViet_Load(sender, e);
+                    clearData();
+                    DisEnl(false);
+                    fluu = 1;
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Lỗi" + ex.Message);
+                }
+            }
+            else if (txtMaPhieu.Text != "" && fluu != 0)
+            {
+                try
+                {
+                    bis.UpdateData(obj);
+                    MessageBox.Show("Sửa Thành Công ! ", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    HienThi();
+                    cboNguoiViet_Load(sender, e);
+                    clearData();
+                    DisEnl(false);
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Lỗi" + ex.Message);
+                }
+            }
         }
 
         private void btThoat_Click(object sender, EventArgs e)
@@ -178,29 +178,29 @@ namespace GUI_NhanSu
 
         private void dgvPhieuMuon_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-               comboBox2.Text = Convert.ToString(dgvPhieuMuon.CurrentRow.Cells["MASV"].Value);
-                comboBox1.Text = Convert.ToString(dgvPhieuMuon.CurrentRow.Cells["MANV"].Value);
-                dateTimePicker1.Text = Convert.ToString(dgvPhieuMuon.CurrentRow.Cells["NGAYMUON"].Value);
-                dateTimePicker2.Text = Convert.ToString(dgvPhieuMuon.CurrentRow.Cells["NGAYTRA"].Value);
-                txtMaPhieu.Text = Convert.ToString(dgvPhieuMuon.CurrentRow.Cells["MAPM"].Value);
-            txtGhichu.Text= Convert.ToString(dgvPhieuMuon.CurrentRow.Cells["GHICHU"].Value);
+            comboBox2.Text = Convert.ToString(dgvPhieuMuon.CurrentRow.Cells["MASV"].Value);
+            comboBox1.Text = Convert.ToString(dgvPhieuMuon.CurrentRow.Cells["MANV"].Value);
+            dateTimePicker1.Text = Convert.ToString(dgvPhieuMuon.CurrentRow.Cells["NGAYMUON"].Value);
+            dateTimePicker2.Text = Convert.ToString(dgvPhieuMuon.CurrentRow.Cells["NGAYTRA"].Value);
+            txtMaPhieu.Text = Convert.ToString(dgvPhieuMuon.CurrentRow.Cells["MAPM"].Value);
+            txtGhichu.Text = Convert.ToString(dgvPhieuMuon.CurrentRow.Cells["GHICHU"].Value);
         }
 
         private void btTimKiem_Click(object sender, EventArgs e)
         {
-            //if (cbTimKiem.Text == "Theo Mã")
-            //{
+            if (cbTimKiem.Text == "Theo Mã")
+            {
 
-            //    dgvPhieuMuon.DataSource = bis.TimKiemPYC("SELECT MAPM,TENNV,TENSV, NGAYMUON,NGAYTRA, GHICHU FROM dbo.PHIEUMUON INNER JOIN dbo.SINHVIEN ON SINHVIEN.MASV = PHIEUMUON.MASV INNER JOIN dbo.NHANVIEN ON NHANVIEN.MANV = PHIEUMUON.MANV WHERE MAPM like '%" + txtTimKiem.Text.Trim() + "%'");
-            //}
-            //if (cbTimKiem.Text == "Theo Tên")
-            //{
-            //    dgvPhieuMuon.DataSource = bis.TimKiemPYC("SELECT MAPM,TENNV,TENSV, NGAYMUON,NGAYTRA, GHICHU FROM dbo.PHIEUMUON INNER JOIN dbo.SINHVIEN ON SINHVIEN.MASV = PHIEUMUON.MASV INNER JOIN dbo.NHANVIEN ON NHANVIEN.MANV = PHIEUMUON.MANV WHERE TENNV like '%" + txtTimKiem.Text.Trim() + "%'");
-            //}
-            //if (cbTimKiem.Text == "Theo Tên Sinh Viên")
-            //{
-            //    dgvPhieuMuon.DataSource = bis.TimKiemPYC("SELECT MAPM,TENNV,TENSV, NGAYMUON,NGAYTRA, GHICHU FROM dbo.PHIEUMUON INNER JOIN dbo.SINHVIEN ON SINHVIEN.MASV = PHIEUMUON.MASV INNER JOIN dbo.NHANVIEN ON NHANVIEN.MANV = PHIEUMUON.MANV WHERE TENSV like '%" + txtTimKiem.Text.Trim() + "%'");
-            //}   
+                dgvPhieuMuon.DataSource = bis.TimKiemPYC("SELECT MAPM,TENNV,TENSV, NGAYMUON,NGAYTRA, GHICHU FROM dbo.PHIEUMUON INNER JOIN dbo.SINHVIEN ON SINHVIEN.MASV = PHIEUMUON.MASV INNER JOIN dbo.NHANVIEN ON NHANVIEN.MANV = PHIEUMUON.MANV WHERE MAPM like '%" + txtTimKiem.Text.Trim() + "%'");
+            }
+            if (cbTimKiem.Text == "Theo Tên")
+            {
+                dgvPhieuMuon.DataSource = bis.TimKiemPYC("SELECT MAPM,TENNV,TENSV, NGAYMUON,NGAYTRA, GHICHU FROM dbo.PHIEUMUON INNER JOIN dbo.SINHVIEN ON SINHVIEN.MASV = PHIEUMUON.MASV INNER JOIN dbo.NHANVIEN ON NHANVIEN.MANV = PHIEUMUON.MANV WHERE TENNV like '%" + txtTimKiem.Text.Trim() + "%'");
+            }
+            if (cbTimKiem.Text == "Theo Tên Sinh Viên")
+            {
+                dgvPhieuMuon.DataSource = bis.TimKiemPYC("SELECT MAPM,TENNV,TENSV, NGAYMUON,NGAYTRA, GHICHU FROM dbo.PHIEUMUON INNER JOIN dbo.SINHVIEN ON SINHVIEN.MASV = PHIEUMUON.MASV INNER JOIN dbo.NHANVIEN ON NHANVIEN.MANV = PHIEUMUON.MANV WHERE TENSV like '%" + txtTimKiem.Text.Trim() + "%'");
+            }
         }
 
         private void btnMuonSach_Click(object sender, EventArgs e)
