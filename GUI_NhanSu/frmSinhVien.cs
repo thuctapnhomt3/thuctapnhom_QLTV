@@ -46,7 +46,7 @@ namespace GUI_NhanSu
         {
             dgvSinhVien.DataSource = bis.GetDataProc();
             dgvSinhVien.AutoResizeColumns();
-           
+
         }
         private void btThoat_Click(object sender, EventArgs e)
         {
@@ -73,7 +73,7 @@ namespace GUI_NhanSu
             cboGioiTinh.Text = Convert.ToString(dgvSinhVien.CurrentRow.Cells["GIOITINH"].Value);
             txtLop.Text = Convert.ToString(dgvSinhVien.CurrentRow.Cells["LOP"].Value);
             txtDiachi.Text = Convert.ToString(dgvSinhVien.CurrentRow.Cells["DIACHI"].Value);
-            dtgNgaySinh.Text= Convert.ToString(dgvSinhVien.CurrentRow.Cells["NGAYSINH"].Value);
+            dtgNgaySinh.Text = Convert.ToString(dgvSinhVien.CurrentRow.Cells["NGAYSINH"].Value);
 
         }
         int fluu;
@@ -95,77 +95,77 @@ namespace GUI_NhanSu
 
         private void btnLuu_Click(object sender, EventArgs e)
         {
-            //if (txtMaSV.Text == "")
-            //{
-            //    MessageBox.Show("Bạn chưa nhập mã phiếu yêu cầu! ", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            //}
-            //if (txtHoten.Text == "")
-            //{
-            //    MessageBox.Show("Bạn chưa nhập khách hàng! ", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            //}
-            //DAO.SinhVienDAO obj = new DAO.SinhVienDAO();
+            if (txtMaSV.Text == "")
+            {
+                MessageBox.Show("Bạn chưa nhập mã phiếu yêu cầu! ", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            if (txtHoten.Text == "")
+            {
+                MessageBox.Show("Bạn chưa nhập khách hàng! ", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            DAO.SinhVienDAO obj = new DAO.SinhVienDAO();
 
 
-            //obj.Masv = txtMaSV.Text;
-            //obj.Hoten = txtHoten.Text;
-            //obj.Gioitinh = cboGioiTinh.SelectedItem.ToString();
-            //obj.Ngaysinh = dtgNgaySinh.Value;
-            //obj.Diachi = txtHoten.Text;
-            // obj.Lop = txtLop.Text;
-            //if (txtMaSV.Text != "" && txtHoten.Text != ""  && fluu == 0)
-            //{
-            //    try
-            //    {
+            obj.Masv = txtMaSV.Text;
+            obj.Hoten = txtHoten.Text;
+            obj.Gioitinh = cboGioiTinh.SelectedItem.ToString();
+            obj.Ngaysinh = dtgNgaySinh.Value;
+            obj.Diachi = txtHoten.Text;
+            obj.Lop = txtLop.Text;
+            if (txtMaSV.Text != "" && txtHoten.Text != "" && fluu == 0)
+            {
+                try
+                {
 
-            //        bis.InsertData(obj);
-            //        MessageBox.Show("Thêm thành công!", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            //        HienThi();
-            //        frmSinhVien_Load(sender, e);
-            //        clearData();
-            //        DisEnl(false);
-            //        fluu = 1;
-            //    }
-            //    catch
-            //    {
+                    bis.InsertData(obj);
+                    MessageBox.Show("Thêm thành công!", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    HienThi();
+                    frmSinhVien_Load(sender, e);
+                    clearData();
+                    DisEnl(false);
+                    fluu = 1;
+                }
+                catch
+                {
 
-            //    }
-            //}
-            //else if (txtMaSV.Text != "" && txtHoten.Text != "" && fluu != 0)
-            //{
-            //    try
-            //    {
-            //        bis.UpdateData(obj);
-            //        MessageBox.Show("Sửa Thành Công ! ", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            //        HienThi();
-            //        frmSinhVien_Load(sender, e);
-            //        clearData();
-            //        DisEnl(false);
-            //    }
-            //    catch (Exception ex)
-            //    {
-            //        MessageBox.Show("Lỗi" + ex.Message);
-            //    }
-            //}
+                }
+            }
+            else if (txtMaSV.Text != "" && txtHoten.Text != "" && fluu != 0)
+            {
+                try
+                {
+                    bis.UpdateData(obj);
+                    MessageBox.Show("Sửa Thành Công ! ", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    HienThi();
+                    frmSinhVien_Load(sender, e);
+                    clearData();
+                    DisEnl(false);
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Lỗi" + ex.Message);
+                }
+            }
 
         }
 
         private void btXoa_Click(object sender, EventArgs e)
         {
-            //if (MessageBox.Show("Bạn có chắc chắn muốn xóa không?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
-            //{
-            //    try
-            //    {
-            //        bis.DeleteData(txtMaSV.Text);
-            //        MessageBox.Show("Xóa thành công!");
-            //        clearData();
-            //        DisEnl(false);
-            //        HienThi();
-            //    }
-            //    catch (Exception ex)
-            //    {
-            //        MessageBox.Show("Lỗi" + ex.Message);
-            //    }
-            //}
+            if (MessageBox.Show("Bạn có chắc chắn muốn xóa không?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                try
+                {
+                    bis.DeleteData(txtMaSV.Text);
+                    MessageBox.Show("Xóa thành công!");
+                    clearData();
+                    DisEnl(false);
+                    HienThi();
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Lỗi" + ex.Message);
+                }
+            }
         }
         private void button1_Click(object sender, EventArgs e)
         {
