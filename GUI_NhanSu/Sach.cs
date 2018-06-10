@@ -30,7 +30,7 @@ namespace GUI_NhanSu
             txtsoluong.Text = "";
             txttentacgia.Text = "";
             txtnamxb.Text = "";
-
+          
         }
         void ShowData()
         {
@@ -102,29 +102,29 @@ namespace GUI_NhanSu
 
         private void btThem_Click(object sender, EventArgs e)
         {
-            DialogResult dr = MessageBox.Show("Bạn có muốn thêm không ?", "Thông báo", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
-            if (dr == DialogResult.OK)
-            {
-                if (txtMasach.Text != "" && txtnamxb.Text != "" && txttentacgia.Text != "" && txtTensach.Text != "")
-                {
-                    SachDao sach = new SachDao(txtMasach.Text.ToString().Trim(), txtTensach.Text.ToString().Trim(), txtTensach.Text.Trim(), int.Parse(txtsoluong.Text.Trim()), txtnamxb.Text.ToString().Trim());
-                    //(txtMaNV.Text.ToString().Trim(), txtTen.Text.ToString().Trim(), txtMaPhong.Text.ToString().Trim(),DateTime.Parse(dtNgaySinh.Text.ToString()),gioitinh,int.Parse(txtLuong.Text.ToString()), txtDiaChi.Text.ToString().Trim());
-                    if (bus_nv.Them(sach) == true)
-                    {
-                        FormatData();
-                        ShowData();
-                        MessageBox.Show("Thêm thành công");
-                    }
-                    else
-                    {
-                        Exception ex = bus_nv.GetEx();
-                        MessageBox.Show(ex.Message);
-                        MessageBox.Show("Có lỗi xảy ra");
-                    }
-                }
-                else
-                    MessageBox.Show("Bạn cần nhập đủ thông tin ");
-            }
+            //DialogResult dr = MessageBox.Show("Bạn có muốn thêm không ?", "Thông báo", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
+            //if (dr == DialogResult.OK)
+            //{
+            //    if (txtMasach.Text != "" && txtnamxb.Text != "" && txttentacgia.Text != "" && txtTensach.Text != "")
+            //    {
+            //        SachDao sach = new SachDao(txtMasach.Text.ToString().Trim(), txtTensach.Text.ToString().Trim(), txtTensach.Text.Trim(), int.Parse(txtsoluong.Text.Trim()), txtnamxb.Text.ToString().Trim());
+            //        //(txtMaNV.Text.ToString().Trim(), txtTen.Text.ToString().Trim(), txtMaPhong.Text.ToString().Trim(),DateTime.Parse(dtNgaySinh.Text.ToString()),gioitinh,int.Parse(txtLuong.Text.ToString()), txtDiaChi.Text.ToString().Trim());
+            //        if (bus_nv.Them(sach) == true)
+            //        {
+            //            FormatData();
+            //            ShowData();
+            //            MessageBox.Show("Thêm thành công");
+            //        }
+            //        else
+            //        {
+            //            Exception ex = bus_nv.GetEx();
+            //            MessageBox.Show(ex.Message);
+            //            MessageBox.Show("Có lỗi xảy ra");
+            //        }
+            //    }
+            //    else
+            //        MessageBox.Show("Bạn cần nhập đủ thông tin ");
+            //}
         }
 
         private void btThoat_Click(object sender, EventArgs e)
@@ -143,24 +143,24 @@ namespace GUI_NhanSu
 
         private void btTimKiem_Click(object sender, EventArgs e)
         {
-            if (txtTimKiem.Text != "")
-            {
-                btHienThi.Enabled = true;
-                if (bus_nv.GetDataTimKiem(txtTimKiem.Text.Trim()) != null)
-                {
-                    FormatData();
-                    dgvSach.DataSource = bus_nv.GetDataTimKiem(txtTimKiem.Text.Trim());
-                    MessageBox.Show("Tìm thành công");
-                }
-                else
-                {
-                    Exception ex = bus_nv.GetEx();
-                    MessageBox.Show(ex.Message);
-                    MessageBox.Show("Lỗi rồi bạn ơi !");
-                }
-            }
-            else
-                MessageBox.Show("Bạn cần nhập thông tin để tìm kiếm !");
+            //if (txtTimKiem.Text != "")
+            //{
+            //    btHienThi.Enabled = true;
+            //    if (bus_nv.GetDataTimKiem(txtTimKiem.Text.Trim()) != null)
+            //    {
+            //        FormatData();
+            //        dgvSach.DataSource = bus_nv.GetDataTimKiem(txtTimKiem.Text.Trim());
+            //        MessageBox.Show("Tìm thành công");
+            //    }
+            //    else
+            //    {
+            //        Exception ex = bus_nv.GetEx();
+            //        MessageBox.Show(ex.Message);
+            //        MessageBox.Show("Lỗi rồi bạn ơi !");
+            //    }
+            //}
+            //else
+            //    MessageBox.Show("Bạn cần nhập thông tin để tìm kiếm !");
         }
 
         private void dgvSach_CellClick(object sender, DataGridViewCellEventArgs e)
