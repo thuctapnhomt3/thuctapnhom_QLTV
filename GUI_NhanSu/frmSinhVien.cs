@@ -79,18 +79,18 @@ namespace GUI_NhanSu
         int fluu;
         private void btThem_Click(object sender, EventArgs e)
         {
-            //fluu = 0;
+            fluu = 0;
 
-            //txtMaSV.Text = bis.TangMa();
-            //DisEnl(true);
-            //txtMaSV.Enabled = false;
+            txtMaSV.Text = bis.TangMa();
+            DisEnl(true);
+            txtMaSV.Enabled = false;
         }
 
         private void btSua_Click(object sender, EventArgs e)
         {
-            //fluu = 1;
-            //DisEnl(true);
-            //txtMaSV.Enabled = false;
+            fluu = 1;
+            DisEnl(true);
+            txtMaSV.Enabled = false;
         }
 
         private void btnLuu_Click(object sender, EventArgs e)
